@@ -1,0 +1,72 @@
+[
+{
+    "model": "polls.question",
+    "pk": 1,
+    "fields": {
+        "question_text": "Mika taas??",
+        "pub_date": "2020-09-21T21:32:45.419Z"
+    }
+},
+{
+    "model": "polls.question",
+    "pk": 2,
+    "fields": {
+        "question_text": "Mikä on paras vuodenaika?",
+        "pub_date": "2020-09-22T20:59:15Z"
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 1,
+    "fields": {
+        "question": 1,
+        "choice_text": "tosi okei",
+        "votes": 2
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 2,
+    "fields": {
+        "question": 1,
+        "choice_text": "jotenkin ok",
+        "votes": 1
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 4,
+    "fields": {
+        "question": 1,
+        "choice_text": "jotain joo",
+        "votes": 1
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 5,
+    "fields": {
+        "question": 2,
+        "choice_text": "Kesä",
+        "votes": 1
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 6,
+    "fields": {
+        "question": 2,
+        "choice_text": "Kevät",
+        "votes": 4
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 7,
+    "fields": {
+        "question": 2,
+        "choice_text": "kevät ja kesä",
+        "votes": 0
+    }
+}
+]
